@@ -7,11 +7,11 @@ services:
       - "8984:8983"
   golang:
     image: golang:1.8.3
-    command: make -C /go/src/github.com/at15/go-solr test-in-docker
+    command: make -C /go/src/github.com/orest-hopiak-symphony/go-solr test-in-docker
     depends_on:
       - solr
     volumes:
-      - "..:/go/src/github.com/at15/go-solr:rw"
+      - "..:/go/src/github.com/orest-hopiak-symphony/go-solr:rw"
     links:
       - solr
     environment:

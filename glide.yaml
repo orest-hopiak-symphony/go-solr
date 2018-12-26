@@ -1,4 +1,4 @@
-package: github.com/at15/go-solr
+package: github.com/orest-hopiak-symphony/go-solr
 import:
 - package: github.com/dyweb/gommon
   vcs: git

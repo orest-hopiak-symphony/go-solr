@@ -3,7 +3,7 @@ package main
 import (
 	"context"
 
-	"github.com/at15/go-solr/solr"
+	"github.com/orest-hopiak-symphony/go-solr/solr"
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
 	"os"

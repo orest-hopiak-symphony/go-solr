@@ -1,7 +1,7 @@
 package solr
 
 import (
-	"github.com/at15/go-solr/solr/util/logutil"
+	"github.com/orest-hopiak-symphony/go-solr/solr/util/logutil"
 )
 
 var log = logutil.Logger.RegisterPkg()

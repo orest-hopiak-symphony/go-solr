@@ -7,7 +7,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/at15/go-solr/solr/internal"
+	"github.com/orest-hopiak-symphony/go-solr/solr/internal"
 	"github.com/pkg/errors"
 )
 

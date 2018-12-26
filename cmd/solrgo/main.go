@@ -3,7 +3,7 @@ package main
 import (
 	"os"
 
-	"github.com/at15/go-solr/solr"
+	"github.com/orest-hopiak-symphony/go-solr/solr"
 	"github.com/spf13/cobra"
 )
 
@@ -16,7 +16,7 @@ var (
 var RootCmd = &cobra.Command{
 	Use:   "solrgo",
 	Short: "Solr client in go",
-	Long:  "Solr client and util in go https://github.com/at15/go-solr",
+	Long:  "Solr client and util in go https://github.com/orest-hopiak-symphony/go-solr",
 	Run: func(cmd *cobra.Command, args []string) {
 		cmd.Usage()
 	},

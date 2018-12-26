@@ -20,7 +20,7 @@ solrgo core index film films.json
 
 ## Fixed
 
-file permission caused by Docker's `COPY` command during build, it's still `root:root` even when `USER` is specified https://github.com/at15/go-solr/issues/19
+file permission caused by Docker's `COPY` command during build, it's still `root:root` even when `USER` is specified https://github.com/orest-hopiak-symphony/go-solr/issues/19
 
 ````log
 INFO[0000] Core job already exists pkg=gosolr 

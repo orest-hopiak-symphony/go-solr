@@ -253,7 +253,7 @@ type SelectResponse struct {
 	} `json:"response"`
 	FacetCounts struct {
 		FacetQueries   interface{}           `json:"facet_queries"`
-		FacetFields    map[string]FacetField `json:"facet_fields"` // NOTE: facet fields mix string and number in array https://github.com/at15/go-solr/issues/17
+		FacetFields    map[string]FacetField `json:"facet_fields"` // NOTE: facet fields mix string and number in array https://github.com/orest-hopiak-symphony/go-solr/issues/17
 		FacetRanges    interface{}           `json:"facet_ranges"`
 		FacetIntervals interface{}           `json:"facet_intervals"`
 		FacetHeatmaps  interface{}           `json:"facet_heatmaps"`

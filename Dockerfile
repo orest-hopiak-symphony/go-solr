@@ -6,10 +6,10 @@ RUN curl -L https://github.com/Masterminds/glide/releases/download/v0.12.3/glide
     mv glide /usr/bin/glide; \
     cd .. && rm -rf linux-amd64
 
-COPY . /go/src/github.com/at15/go-solr/
+COPY . /go/src/github.com/orest-hopiak-symphony/go-solr/
 
-RUN cd /go/src/github.com/at15/go-solr; \
+RUN cd /go/src/github.com/orest-hopiak-symphony/go-solr; \
     glide install
 
-RUN cd /go/src/github.com/at15/go-solr; \
+RUN cd /go/src/github.com/orest-hopiak-symphony/go-solr; \
     make install

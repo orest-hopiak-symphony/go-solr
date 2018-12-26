@@ -1,4 +1,4 @@
-PKG = github.com/at15/go-solr
+PKG = github.com/orest-hopiak-symphony/go-solr
 VERSION = 0.0.1
 BUILD_COMMIT = $(shell git rev-parse HEAD)
 BUILD_TIME = $(shell date +%Y-%m-%dT%H:%M:%S%z)
@@ -35,5 +35,5 @@ fmt:
 loc:
 	cloc --exclude-dir=vendor,.idea,script .
 godoc:
-	@echo open http://localhost:6060/pkg/github.com/at15/go-solr
+	@echo open http://localhost:6060/pkg/github.com/orest-hopiak-symphony/go-solr
 	godoc -http=":6060"

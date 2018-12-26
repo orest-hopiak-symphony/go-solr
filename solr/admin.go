@@ -30,7 +30,7 @@ const (
 // CreateCore create cores directly, you will get error if the core already exists. NOTE: when using configSet, Solr does NOT
 // copy configSet to instance folder, if you have multiple cores using same configSet, you have to make sure they have same schema,
 // otherwise you will end up having a mixed schema when you ingest different document. It is different from the bin/solr command
-// see https://github.com/at15/go-solr/issues/15 for detail
+// see https://github.com/orest-hopiak-symphony/go-solr/issues/15 for detail
 // http://localhost:8983/solr/admin/cores?action=CREATE&name=films&instanceDir=films&configSet=data_driven_schema_configs
 func (c *Client) CreateCore(ctx context.Context, core Core) error {
 	req, err := c.client.NewRequest(http.MethodPost, adminCoreBaseURL, nil)
