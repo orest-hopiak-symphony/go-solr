@@ -1,10 +1,9 @@
-github.com/orest-hopiak-symphony/go-solr v0.0.0-20170907224417-4246479cc274 h1:q4J3mepmBQlNvgSGFpITwe9yb6LWIJd/UNY2iMu/4XI=
-github.com/orest-hopiak-symphony/go-solr v0.0.0-20170907224417-4246479cc274/go.mod h1:NuVgyORVQQUix6LNMgijHft/nnrEteeRlS4VuwRSKnI=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
-github.com/dyweb/gommon v0.0.0-20170807045424-82c5398e6809 h1:m3YS5KhkFhkE8l3hcdUrLr7JsjX+eorhSftSLWHQkG4=
-github.com/dyweb/gommon v0.0.0-20170807045424-82c5398e6809/go.mod h1:gg42VgLSXcqJakeECnwfU2HfHVYoL6i3NutSsRdgVP4=
+github.com/dyweb/gommon v0.0.0-20170807025334-03cc77739f49 h1:MwDPrkoHTeJw6pFvS1hBK2VV1w4k8VP/bDl1RymJyVE=
+github.com/dyweb/gommon v0.0.0-20170807025334-03cc77739f49/go.mod h1:gg42VgLSXcqJakeECnwfU2HfHVYoL6i3NutSsRdgVP4=
 github.com/inconshreveable/mousetrap v1.0.0/go.mod h1:PxqpIevigyE2G7u3NXJIT2ANytuPF1OarO4DADm73n8=
+github.com/orest-hopiak-symphony/go-solr v0.0.0-20170907224417-4246479cc274/go.mod h1:4nTusQZShd5m9o07nCgeVgl2oVrmTgJikpuonrmO1EY=
 github.com/pkg/errors v0.8.0 h1:WdK/asTD0HN+q6hsWO3/vpuAkAr+tw6aNJNDFFf0+qw=
 github.com/pkg/errors v0.8.0/go.mod h1:bwawxfHBFNV+L2hUp1rHADufV3IMtnDRdf1r5NINEl0=
 github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZbAQM=

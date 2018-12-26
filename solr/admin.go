@@ -5,8 +5,9 @@ import (
 	"net/http"
 
 	"fmt"
-	"github.com/pkg/errors"
 	"io/ioutil"
+
+	"github.com/pkg/errors"
 )
 
 const (

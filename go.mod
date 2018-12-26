@@ -1,7 +1,6 @@
 module github.com/orest-hopiak-symphony/go-solr
 
 require (
-	github.com/orest-hopiak-symphony/go-solr v0.0.0-20170907224417-4246479cc274
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/dyweb/gommon v0.0.0-20170807025334-03cc77739f49
 	github.com/inconshreveable/mousetrap v1.0.0
