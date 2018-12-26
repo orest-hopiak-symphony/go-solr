@@ -131,7 +131,9 @@ func (c *Client) Post(ctx context.Context, url string, body, v interface{}) (*Re
 
 func (c *Client) Do(ctx context.Context, req *http.Request, v interface{}) (*Response, error) {
 	req = req.WithContext(ctx)
-	fmt.Printf("%s", req.URL)
+	fmt.Printf("%s\n", req.RequestURI)
+	fmt.Printf("%s\n", req.RemoteAddr)
+	fmt.Printf("%s\n", req.URL)
 	res, err := c.http.Do(req)
 	if err != nil {
 		// return context error
